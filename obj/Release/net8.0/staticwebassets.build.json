@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xni9o/IBS4406yiRhJwzUSIHGYxZ7CayrcyOkPLT5/M=",
+  "Hash": "QvfEB+QDNJCjXC99H3DpgGBDj7qc0VjMz1zX5PgisKg=",
   "Source": "mph_converter_webapp",
   "BasePath": "_content/mph_converter_webapp",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\Computer Science\\mph_converter_webapp\\wwwroot\\index.html",
+      "SourceId": "mph_converter_webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Computer Science\\mph_converter_webapp\\wwwroot\\",
+      "BasePath": "_content/mph_converter_webapp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "H:\\Computer Science\\mph_converter_webapp\\wwwroot\\js\\site.js",

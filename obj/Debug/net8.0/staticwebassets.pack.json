@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "H:\\Computer Science\\mph_converter_webapp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "H:\\Computer Science\\mph_converter_webapp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

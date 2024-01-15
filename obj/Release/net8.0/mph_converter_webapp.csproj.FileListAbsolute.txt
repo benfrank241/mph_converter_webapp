@@ -131,3 +131,8 @@ H:\Computer Science\mph_converter_webapp\obj\Release\net8.0\refint\mph_converter
 H:\Computer Science\mph_converter_webapp\obj\Release\net8.0\mph_converter_webapp.pdb
 H:\Computer Science\mph_converter_webapp\obj\Release\net8.0\mph_converter_webapp.genruntimeconfig.cache
 H:\Computer Science\mph_converter_webapp\obj\Release\net8.0\ref\mph_converter_webapp.dll
+H:\Computer Science\mph_converter_webapp\bin\Release\net8.0\publish\web.config
+H:\Computer Science\mph_converter_webapp\bin\Release\net8.0\publish\appsettings.Development.json
+H:\Computer Science\mph_converter_webapp\bin\Release\net8.0\publish\appsettings.json
+H:\Computer Science\mph_converter_webapp\bin\Release\net8.0\publish\mph_converter_webapp.deps.json
+H:\Computer Science\mph_converter_webapp\bin\Release\net8.0\publish\mph_converter_webapp.runtimeconfig.json
