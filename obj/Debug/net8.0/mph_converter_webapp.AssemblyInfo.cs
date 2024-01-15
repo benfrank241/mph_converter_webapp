@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mph_converter_webapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+def931bffd9509a759c8e61394e616011ec8f727")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b992b43c0fa7a8f0e069943bbb3558a04318e350")]
 [assembly: System.Reflection.AssemblyProductAttribute("mph_converter_webapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mph_converter_webapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
