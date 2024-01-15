@@ -1,0 +1,60 @@
+﻿@page
+@model ConvertModel
+@* @inject AppDbContext DbContext *@
+@{
+    ViewData["Title"] = "Speed Converter";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Converter</h1>
+    <div>
+        <label for="mphInput">Enter speed in mph:</label>
+        <input type="text" id="mphInput" />
+        <button onclick="convertToKph()">Show Conversion to Kph</button>
+        <button onclick="convertToMinPerKm()">Show Conversion to Min/km</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script>
+        function convertToKph() {
+            var mphInput = document.getElementById("mphInput").value;
+
+            // Check if the input is a valid number
+            if (isNaN(mphInput)) {
+                alert("Please enter a valid number for speed.");
+                return;
+            }
+
+            @* // Save the conversion to the database
+            await DbContext.Conversions.AddAsync(new Conversion { Mph = mphInput, Kph = kph });
+            await DbContext.SaveChangesAsync(); *@
+
+            var kph = mphInput * 1.60934; // Conversion factor
+
+            // Display the result
+            var resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "<p>" + mphInput + " mph is approximately " + kph.toFixed(2) + " kph.</p>";
+        }
+
+        function convertToMinPerKm() {
+            var mphInput = document.getElementById("mphInput").value;
+
+            // Check if the input is a valid number
+            if (isNaN(mphInput)) {
+                alert("Please enter a valid number for speed.");
+                return;
+            }
+
+            var kph = mphInput * 1.60934; // Conversion factor
+            var minPerKm = 60 / kph; // Calculate minutes per kilometer
+
+            @* await DbContext.Conversions.AddAsync(new Conversion { Mph = mphInput, Kph = kph, MinPerKm = minPerKm });
+            await DbContext.SaveChangesAsync(); *@
+
+            // Display the result
+            var resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "<p>" + mphInput + " mph is approximately " + minPerKm.toFixed(2) + " min/km.</p>";
+        }
+    </script>
+</div>
